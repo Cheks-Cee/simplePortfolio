@@ -1,0 +1,95 @@
+.start{
+    background-image: linear-gradient(rgb(148, 146, 146,0.3),rgb(187, 183, 183, 0.3)),url("https://res.cloudinary.com/helencee/image/upload/v1575890818/Images_for_my_website/ipad-iphone-5-macbook-air-and-apple-magic-mouse-on-a-desk-with-a-cup-GHRG5W_pbg1r1.jpg");
+    /* background-image: linear-gradient(rgba(235, 225, 225, 0.3),rgba(225,225,225,0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png); */
+    
+    background-attachment: fixed;
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    display: inline; 
+    margin-right: 5vw;
+    /* text-decoration: none; */
+    color: black;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+#name{
+    margin-right: 5vw;
+    color: white;
+}
+
+.helen{
+    width: 10vw;
+}
+
+.intro{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    text-shadow: 0 4px 4px rgb(199, 194, 194);
+    text-align: center;
+    font-size: 2rem;
+}
+.title h1{
+    font-size: 3rem;
+}
+
+/* style for Projects */
+
+.projects{
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center */
+}
+.projects h1{
+    text-align: center;
+    font-size: 36px;
+}
+.projects div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.illustrations{
+    width: 450px;
+    height: 250px;
+}
+
+.illustrations:hover{
+    transform: scale(1.1);
+    transition: .2s ease;
+}
+
+.about{
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    background-image: linear-gradient(rgba(148, 146, 146,0.3),rgb(187, 183, 183, 0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png);
+    background-attachment: fixed;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+
+}
+
