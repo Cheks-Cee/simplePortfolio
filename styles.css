@@ -61,6 +61,7 @@ nav ul li a{
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center */
+    background: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjDn9vrxsrmAhWRyoUKHRslAREQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.dreamstime.com%2Fillustration%2Ffancy-lines-design-background.html&psig=AOvVaw0o1EgHz6xnV59cxfDulx_w&ust=1577148669045139");
 }
 .projects h1{
     text-align: center;
@@ -72,8 +73,8 @@ nav ul li a{
 }
 
 .illustrations{
-    width: 450px;
-    height: 250px;
+    width: 35vw;
+    height: 30vh;
 }
 
 .illustrations:hover{
