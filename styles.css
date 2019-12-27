@@ -10,7 +10,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    width: 80vw;
+    width: 100vw;
     margin: auto; 
     color: white; 
 }
@@ -41,7 +41,7 @@ nav ul a{
 }
 
 .intro{
-    width: 80vw;
+    width: 100vw;
     height: 80vh;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@ nav ul a{
 
 .projects{
     height: 100vh;
-    width: 80vw;
+    width: 100vw;
     margin: auto;
     /* display: flex; */
     /* flex-direction: column; */
@@ -105,7 +105,7 @@ nav ul a{
 
 .about{
     height: 100vh;
-    width: 80vw;
+    width: 100vw;
     margin: auto;
     /* background-image: linear-gradient(rgba(148, 146, 146,0.3),rgb(187, 183, 183, 0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png); */
     
