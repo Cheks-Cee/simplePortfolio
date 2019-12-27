@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Helen Collins-Eromosele</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- google font  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="content">
@@ -29,7 +31,7 @@
                     <h1>Helen Collins Eromosele</h1>
                     <p>Front-End Web Developer</p>
                     
-                    <button><a href="#projects" style="text-decoration: none;">See My Projects</a></button>
+                    <button class="see"><a href="#projects" style="text-decoration: none;">See My Projects</a></button>
                 </div>
             </section>
         </div>
@@ -49,20 +51,27 @@
                 <figure>
                     <a href="https://cheks-cee.github.io/JavaScript_Drum_kit/"><img src="https://res.cloudinary.com/helencee/image/upload/v1577054610/Images_for_my_website/music-project_z8dl32.png" alt="Music on keyboard" class="illustrations"></a>
                 </figure>
+                <figure>
+                    <a href="https://modest-kalam-baca49.netlify.com/"><img src="https://res.cloudinary.com/helencee/image/upload/v1577363291/Images_for_my_website/Mistique_y5kc28.png" alt="Landing PAge" class="illustrations"></a>
+                </figure>
             </div>
         </section>
 
         <section class="about">
-            <div>
-                <h1>About Me</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum laudantium odio eaque et optio tempore consequatur tempora, ipsum sapiente laboriosam temporibus accusamus non adipisci officiis repellat illum, enim aliquam sint!</p>
-                <div>
-                    <h2>Links</h2>
-                    <button><a href="">LinkedIn</a></button>
-                    <button><a href="">Github</a></button>
-                    <button><a href="">Twitter</a></button>
+            <div class="about-me">
+                <div class="me">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum laudantium odio eaque et optio tempore consequatur tempora, ipsum sapiente laboriosam temporibus accusamus non adipisci officiis repellat illum, enim aliquam sint!</p>
+                    <div>
+                        <h2>Links</h2>
+                        <button><a href="">LinkedIn</a></button>
+                        <button><a href="">Github</a></button>
+                        <button><a href="">Twitter</a></button>
+                    </div>
+    
                 </div>
-
+                
+               
             </div>
             <section class="skills">
                 <div>
@@ -88,6 +97,36 @@
                 </div>
             </section>
     
+        </section>
+
+        <section id="contact">
+            <div>
+                
+                <form action="">
+                    <h1 class="form-h1">You Can Leave A message For Me</h1>
+                    <div class="form-container">
+                        <div class="input">
+                            <legend>Full Name</legend>
+                            <input type="text" placeholder="Surname and First Name">
+                        </div>
+    
+                        <div class="input">
+                            <legend>Email Address</legend>
+                            <input type="email" placeholder="Your Email Address">
+                        </div>
+                        <div  class="input">
+                            <legend>Message Title</legend>
+                            <input type="text" placeholder="Title Of Your Message">
+                        </div>
+                        <div  class="input">
+                            <legend>Message</legend>
+                            <input type="textarea" placeholder="Type Your Message Here" id="form-message">
+                        </div>
+
+                    </div>
+                        
+                </form>
+            </div>
         </section>
 
         

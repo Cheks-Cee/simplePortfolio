@@ -1,12 +1,18 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .start{
-    background-image: linear-gradient(rgb(148, 146, 146,0.3),rgb(187, 183, 183, 0.3)),url("https://res.cloudinary.com/helencee/image/upload/v1575890818/Images_for_my_website/ipad-iphone-5-macbook-air-and-apple-magic-mouse-on-a-desk-with-a-cup-GHRG5W_pbg1r1.jpg");
+    /* background-image: linear-gradient(rgb(148, 146, 146,0.3),rgb(187, 183, 183, 0.3)),url("https://res.cloudinary.com/helencee/image/upload/v1575890818/Images_for_my_website/ipad-iphone-5-macbook-air-and-apple-magic-mouse-on-a-desk-with-a-cup-GHRG5W_pbg1r1.jpg"); */
     /* background-image: linear-gradient(rgba(235, 225, 225, 0.3),rgba(225,225,225,0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png); */
-    
+    background-image: Url("https://res.cloudinary.com/helencee/image/upload/v1577363700/Images_for_my_website/bluewood_aj0bms.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     height: 100vh;
     width: 80vw;
-    margin: auto;
-    
+    margin: auto; 
+    color: white; 
 }
 
 header nav{
@@ -18,12 +24,11 @@ nav ul li{
     display: inline; 
     margin-right: 5vw;
     /* text-decoration: none; */
-    color: black;
+    color: white;
 }
 
 nav ul a{
     text-decoration: none;
-    color: red;
 }
 
 #name{
@@ -44,8 +49,22 @@ nav ul a{
     align-items: center;
 }
 
+.see{
+    background-color: transparent;
+    border: 2px solid white;
+    width: 10vw;
+    height: 8vh;
+    box-shadow: 0 4px 4px rgb(44, 43, 43);
+}
+
+.see a{
+    color: white;
+    text-shadow: 0 4px 4px rgb(44, 43, 43);
+    font-size: 1rem;
+}
+
 .title{
-    text-shadow: 0 4px 4px rgb(199, 194, 194);
+    text-shadow: 0 4px 4px rgb(44, 43, 43);
     text-align: center;
     font-size: 2rem;
 }
@@ -62,7 +81,8 @@ nav ul a{
     /* display: flex; */
     /* flex-direction: column; */
     /* justify-content: center */
-    background-image: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjDn9vrxsrmAhWRyoUKHRslAREQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.dreamstime.com%2Fillustration%2Ffancy-lines-design-background.html&psig=AOvVaw0o1EgHz6xnV59cxfDulx_w&ust=1577148669045139");
+    /* background-image: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjDn9vrxsrmAhWRyoUKHRslAREQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.dreamstime.com%2Fillustration%2Ffancy-lines-design-background.html&psig=AOvVaw0o1EgHz6xnV59cxfDulx_w&ust=1577148669045139"); */
+    
 }
 .projects h1{
     text-align: center;
@@ -87,11 +107,79 @@ nav ul a{
     height: 100vh;
     width: 80vw;
     margin: auto;
-    background-image: linear-gradient(rgba(148, 146, 146,0.3),rgb(187, 183, 183, 0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png);
-    background-attachment: fixed;
-    display: flex;
+    /* background-image: linear-gradient(rgba(148, 146, 146,0.3),rgb(187, 183, 183, 0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png); */
+    
+    /* display: flex; */
     /* justify-content: center; */
-    align-content: center;
+    /* align-content: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
 
+.about-me{
+    background-image: url("https://res.cloudinary.com/helencee/image/upload/v1575890818/Images_for_my_website/ipad-iphone-5-macbook-air-and-apple-magic-mouse-on-a-desk-with-a-cup-GHRG5W_pbg1r1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(19, 67, 122, 0.9);
+    color: white;
+}
+
+#contact{
+    /* display: flex; */
+    width: 80vw;
+    height: 100vh;
+    margin-top: 5vh;
+    margin: auto;
+}
+
+form{
+   /* border: 1px solid grey; */
+   height: 80vh;
+   box-shadow: 0px 2px 2px 2px rgb(133, 131, 131, 0.5);
+   margin-top: 10vh;
+   padding-bottom: 5vh;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+}
+
+
+input{
+    width: 45vw;
+    height: 5vh;
+}
+
+.input{
+    margin-bottom: 2vh;
+}
+
+#form-message{
+    height: 20vh;
+    text-align: top;
+    
+}
