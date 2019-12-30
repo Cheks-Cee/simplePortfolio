@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
@@ -5,7 +10,7 @@ body{
 .start{
     /* background-image: linear-gradient(rgb(148, 146, 146,0.3),rgb(187, 183, 183, 0.3)),url("https://res.cloudinary.com/helencee/image/upload/v1575890818/Images_for_my_website/ipad-iphone-5-macbook-air-and-apple-magic-mouse-on-a-desk-with-a-cup-GHRG5W_pbg1r1.jpg"); */
     /* background-image: linear-gradient(rgba(235, 225, 225, 0.3),rgba(225,225,225,0.3)),url(https://res.cloudinary.com/helencee/image/upload/e_saturation:-71,q_66/v1567006134/first%20images/code_background_g1i892.png); */
-    background-image: Url("https://res.cloudinary.com/helencee/image/upload/v1577363700/Images_for_my_website/bluewood_aj0bms.jpg");
+    background-image: Url("https://res.cloudinary.com/helencee/image/upload/v1577643967/Images_for_my_website/home-office-336377_1280_k2rmvm.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -15,9 +20,20 @@ body{
     color: white; 
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+
 header nav{
     display: flex;
     flex-direction: row;
+    background-color: rgba(20, 20, 20, 0.5);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    justify-content: space-around;
+    
 }
 
 nav ul li{
@@ -47,6 +63,7 @@ nav ul a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .see{
@@ -67,6 +84,9 @@ nav ul a{
     text-shadow: 0 4px 4px rgb(44, 43, 43);
     text-align: center;
     font-size: 2rem;
+    background-color: rgba(77, 75, 75, 0.5);
+    box-shadow: 0px 2px 4px rgba(53, 52, 52, 0.5);
+    padding: 1rem;
 }
 .title h1{
     font-size: 3rem;
@@ -77,6 +97,7 @@ nav ul a{
 .projects{
     height: 100vh;
     width: 100vw;
+    padding: 5vw;
     margin: auto;
     /* display: flex; */
     /* flex-direction: column; */
@@ -91,6 +112,7 @@ nav ul a{
 .projects div{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
 }
 
 .illustrations{
@@ -112,8 +134,8 @@ nav ul a{
     /* display: flex; */
     /* justify-content: center; */
     /* align-content: center; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
 
 }
 
@@ -130,12 +152,64 @@ nav ul a{
     height: 100%;
 }
 
-.skills{
+.fE{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(19, 67, 122, 0.9);
-    color: white;
 }
+
+.skills{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    /* background-color: rgb(19, 67, 122, 0.9); */
+    
+    color: white;
+    height: 80vh;
+    width: 100vw;
+    margin: auto;
+    padding: 2rem 2rem;
+}
+
+.skills-container{
+    width: 75vw;
+    background-color: rgba(165, 154, 154,0.3);
+    height: 100%
+}
+
+.version{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#skills-html{
+    font-size: 10rem;
+    color: rgb(224, 34, 34);
+}
+
+#skills-css{
+    font-size: 10rem;
+    color: rgb(25, 131, 218);
+}
+
+#skills-js{
+    font-size: 10rem;
+    color: yellow;
+}
+
+#skills-react{
+    font-size: 10rem;
+    color: blue;
+}
+
+#skills-git{
+    font-size: 10rem;
+    color: red;
+}
+
+#skills-github{
+    font-size: 10rem;
+    color: black;
+}
+
 
 #contact{
     /* display: flex; */
@@ -146,11 +220,14 @@ nav ul a{
 }
 
 form{
+    background-image: Url("https://res.cloudinary.com/helencee/image/upload/v1577652875/Images_for_my_website/programming-1873854_640_c9gskq.png");
+    background-repeat: no-repeat;
+    background-size: cover;
    /* border: 1px solid grey; */
-   height: 80vh;
-   box-shadow: 0px 2px 2px 2px rgb(133, 131, 131, 0.5);
-   margin-top: 10vh;
-   padding-bottom: 5vh;
+    height: 80vh;
+    box-shadow: 0px 2px 2px 2px rgb(133, 131, 131, 0.5);
+    margin-top: 10vh;
+    padding-bottom: 5vh;
 }
 
 .form-container{
@@ -182,4 +259,37 @@ input{
     height: 20vh;
     text-align: top;
     
+}
+
+#copyright{
+    width: 100%;
+    background-color: rgba(12, 7, 7, 0.9);
+    color: white;
+    /* text-align: center; */
+}
+
+footer{
+    width: 100%;
+    background-color: rgba(17, 15, 15,0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* .footer ul li{
+    display: flex;
+    justify-content: center;
+} */
+
+.fab{
+    font-size: 2rem;
 }
